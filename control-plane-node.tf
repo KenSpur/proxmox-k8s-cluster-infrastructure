@@ -27,7 +27,7 @@ resource "proxmox_vm_qemu" "control_plane_node" {
 
   # VM Network Settings
   network {
-    bridge = "vmbr0"
+    bridge = "vmbr1"
     model  = "virtio"
   }
 
